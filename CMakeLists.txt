@@ -5,4 +5,4 @@ set(CMAKE_CXX_STANDARD 14)
 
 include_directories(${project_source_dir}/src/)
 
-add_executable(code src/BPT-with-space-recycling.hpp src/main.cpp)
+add_executable(code src/BPT.hpp src/main.cpp)
